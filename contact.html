@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-white">
-        <a class="navbar-brand" style="background-color: #4aaaa5;">Rebecca Hernandez</a>
+        <a class="navbar-brand">Rebecca Hernandez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -36,16 +36,18 @@
     <div class="container">
         <form>
             <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+            </div>
+            <div class="form-group">
                 <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
                 <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
             </div>
             <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-            </div>
-            <div>
-            </div>
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>                  
     </div>
