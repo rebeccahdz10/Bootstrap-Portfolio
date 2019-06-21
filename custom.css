@@ -1,5 +1,13 @@
+html, body {
+    background: url("images/Scales.png")
+}
+.mt-10 {
+    margin: 15px 15px;
+}
+.container {
+    background-color: white;
+}
 .navbar-expand-lg {
-    margin: 0px 15%;
     background-color: gray;
 }
 .media {
