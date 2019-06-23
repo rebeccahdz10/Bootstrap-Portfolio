@@ -1,24 +1,25 @@
 body {
     background: url("images/Scales.png");
 }
+p {
+    margin: 0px;
+}
 .mt-10 {
-    padding: 20px;
+    padding: 30px;
 }
 .container {
     background-color: white;
-    padding: 0px 20px;
+    padding: 0px 30px;
+    text-align: justify;
 }
 .navbar-expand-lg {
     background-color: gray;
-}
-.media-body {
-    box-sizing: none;
 }
 .media {
     margin: 75px 0px 75px 0px;
 }
 img {
-    margin: 50px;
+    margin: 30px 20px 15px 0px;
     max-width: 100%;
     height: auto;
     float: left;
