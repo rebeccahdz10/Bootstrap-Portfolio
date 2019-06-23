@@ -8,6 +8,7 @@ p {
     padding: 30px;
 }
 .container {
+    margin: 104.5px auto;
     background-color: white;
     padding: 0px 30px;
     text-align: justify;
@@ -22,14 +23,15 @@ p {
     width: 100%;
     background-color: white;
     padding: 20px 30px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     display: block;
+    overflow: auto;
 }
 .navbar-expand-lg {
     background-color: gray;
 }
 .media {
-    margin: 75px 0px 75px 0px;
+    margin: 30px 10px 30px 10px;
 }
 img {
     margin: 30px 20px 15px 0px;
