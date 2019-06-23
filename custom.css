@@ -5,7 +5,7 @@ h3 {
     color: white;
 }
 img {
-    margin: 0% 0% -9% 0%;
+    margin: 30px 20px 15px 0px;
     max-width: 100%;
     height: auto;
     float: left;
@@ -53,6 +53,12 @@ p {
     box-sizing: border-box;
     display: block;
     overflow: auto;
+}
+.firstGame {
+    margin: 0% 0% -9% 0%;
+    max-width: 100%;
+    height: auto;
+    float: left;
 }
 .navbar-expand-lg {
     background-color: gray;
