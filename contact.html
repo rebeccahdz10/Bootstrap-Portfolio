@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="fixed-top navbar navbar-expand-lg navbar-light">
         <a class="navbar-brand">Rebecca Hernandez</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,29 +35,31 @@
             </ul>
         </div>
     </nav>
-
-    <div class="container">
-        <form>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Name</label>
-                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
-            </div>
-            <div class="form-group">
-                <label for="exampleInputEmail1">Email address</label>
-                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-                    placeholder="example@gmail.com">
-                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                    else.</small>
-            </div>
-            <div class="form-group">
-                <label for="exampleFormControlTextarea1">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-        </form>
+    <div class="formBody">
+        <div class="formContainer">
+            <form>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Name</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                        placeholder="example@gmail.com">
+                    <small id="emailHelp" class="form-text text-muted">We'll <i>probably</i> never share your email with
+                        anyone
+                        else.</small>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
     </div>
-    <div class="card">
-        <div class="card-body">
+    <div class="fixed-bottom">
+        <div class="foot">
             Copyright ©
         </div>
     </div>

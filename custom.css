@@ -11,6 +11,19 @@ p {
     background-color: white;
     padding: 0px 30px;
     text-align: justify;
+    overflow: auto;
+}
+.formBody {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.formContainer {
+    margin: 104.5px auto;
+    width: 100%;
+    background-color: white;
+    padding: 20px 30px;
+    /* box-sizing: border-box; */
+    display: block;
 }
 .navbar-expand-lg {
     background-color: gray;
@@ -27,7 +40,7 @@ img {
 .foot {
     background-color: gray;
     text-align: center;
-    border-top: teal 10px solid;
+    border-top: #5d1848 10px solid;
     padding: 10px;
     color: white;
 }
