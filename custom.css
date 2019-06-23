@@ -39,6 +39,12 @@ img {
     height: auto;
     float: left;
 }
+.catMouse {
+    margin: 30px 10px 30px 10px;
+    overflow: auto;
+    display: block;
+    width: auto;
+}
 .foot {
     background-color: gray;
     text-align: center;
